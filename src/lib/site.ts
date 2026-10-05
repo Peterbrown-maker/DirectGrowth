@@ -44,9 +44,9 @@ export const steps = [
 
 /** Contact details — set these once confirmed. Left empty on purpose; nothing is shown until supplied. */
 export const contact = {
-  phone: "",
+  phone: "+27791580337",
   email: "",
-  whatsapp: "",
+  whatsapp: "https://wa.me/27791580337",
 };
 
 export const nav = [

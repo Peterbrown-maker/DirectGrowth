@@ -23,7 +23,7 @@ function About() {
         <div className="container-x grid gap-12 lg:grid-cols-12 lg:gap-8">
           <div className="lg:col-span-4">
             <div className="flex aspect-[4/5] items-end rounded-2xl border bg-secondary p-6">
-              <p className="text-[13px] text-muted-foreground">Founder portrait to be added</p>
+              <img src="/founder.jpg" alt="Sharon Tlhalefo Kgobudi — Founder" className="w-full h-full object-cover rounded-lg" />
             </div>
           </div>
           <div className="lg:col-span-7 lg:col-start-6">

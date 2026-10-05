@@ -98,6 +98,14 @@ function Contact() {
             <li><span className="font-semibold text-navy">2.</span> We contact you to discuss scope</li>
             <li><span className="font-semibold text-navy">3.</span> You receive a written proposal</li>
           </ol>
+        <div className="mt-8 flex flex-col gap-3">
+          <a href={`tel:${contact.phone}`} className="inline-flex h-12 items-center justify-center rounded-[9px] bg-navy px-6 text-[15px] font-semibold text-on-navy shadow-soft hover:bg-navy-deep">
+            Call {contact.phone}
+          </a>
+          <a href={contact.whatsapp} target="_blank" rel="noopener noreferrer" className="inline-flex h-12 items-center justify-center rounded-[9px] px-6 text-[15px] font-semibold border border-input bg-background text-navy hover:border-navy">
+            Message on WhatsApp
+          </a>
+        </div>
         </div>
 
         <form onSubmit={onSubmit} noValidate className="lg:col-span-7 lg:col-start-6 rounded-2xl border bg-card p-6 shadow-soft sm:p-10 lg:p-12">

@@ -2,11 +2,7 @@ import { Link } from "@tanstack/react-router";
 
 export function LogoMark({ className = "" }: { className?: string }) {
   return (
-    <svg viewBox="0 0 40 40" aria-hidden="true" className={className}>
-      <rect width="40" height="40" rx="9" className="fill-navy" />
-      <path d="M10 27 L19 18 L23 22 L30 13" fill="none" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="stroke-teal" />
-      <path d="M24.5 13 H30 V18.5" fill="none" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="stroke-teal" />
-    </svg>
+    <img src="/brand-mark.png" aria-hidden="true" className={className} alt="" />
   );
 }
 
