@@ -190,7 +190,7 @@ function Group({ n, title, children }: { n: string; title: string; children: Rea
   );
 }
 
-function Field({ id, label, required, error, full, children }: { id: string; label: string; required?: boolean; error?: string; full?: boolean; children: ReactNode }) {
+function Field({ id, label, required, error, full, children }: { id: string; label: string; required?: boolean; error?: string | undefined; full?: boolean; children: ReactNode }) {
   return (
     <div className={full ? "sm:col-span-2" : ""}>
       <label htmlFor={id} className="text-[14.5px] font-semibold text-foreground">
